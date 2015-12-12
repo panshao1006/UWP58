@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _58.HouseProperty;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -44,7 +45,7 @@ namespace _58
             {
                 DispatcherTimer timer = (DispatcherTimer)sender;
                 timer.Stop();
-                this.Frame.Navigate(typeof(IndexPage));
+                this.Frame.Navigate(typeof(HouseIndex));
             }
             i++;
         }
