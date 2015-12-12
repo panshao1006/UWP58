@@ -20,18 +20,17 @@ namespace _58.HouseProperty
     /// <summary>
     /// 可用于自身或导航至 Frame 内部的空白页。
     /// </summary>
-    public sealed partial class HouseIndex : Page
+    public sealed partial class HouseItemList : Page
     {
-        public HouseIndex()
+        public HouseItemList()
         {
             this.InitializeComponent();
         }
 
-
-        //租房点击事件
-        private void TextBlock_Tapped(object sender, TappedRoutedEventArgs e)
+        private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(HouseItemList));
+            //加载数据
+
         }
     }
 }

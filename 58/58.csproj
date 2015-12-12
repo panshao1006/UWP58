@@ -102,6 +102,9 @@
     <Compile Include="HouseProperty\HouseIndex.xaml.cs">
       <DependentUpon>HouseIndex.xaml</DependentUpon>
     </Compile>
+    <Compile Include="HouseProperty\HouseItemList.xaml.cs">
+      <DependentUpon>HouseItemList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -139,6 +142,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="HouseProperty\HouseIndex.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HouseProperty\HouseItemList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

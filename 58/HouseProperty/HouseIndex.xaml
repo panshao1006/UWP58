@@ -31,7 +31,7 @@
                         <ColumnDefinition></ColumnDefinition>
                         <ColumnDefinition></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Text="整套出租" Grid.Row="0" Grid.Column="0"></TextBlock>
+                    <TextBlock Text="整套出租" Tapped="TextBlock_Tapped"  Grid.Row="0" Grid.Column="0"></TextBlock>
                     <TextBlock Text="合租房" Grid.Row="0" Grid.Column="1"></TextBlock>
                     <TextBlock Text="求租" Grid.Row="0" Grid.Column="2"></TextBlock>
                 </Grid>
